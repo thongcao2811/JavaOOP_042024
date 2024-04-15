@@ -1,18 +1,38 @@
-package BT_JAVA_OOP1;
+package BT_JAVA_OOP2.Person;
 
-public class NhanVien {
+public class Person {
     public String name;
     public int age;
     public String gender;
     public String phone;
     public String address;
 
-    public NhanVien(java.lang.String name, int age, java.lang.String gender, java.lang.String phone, java.lang.String address) {
+    public Person(java.lang.String name, int age, java.lang.String gender, java.lang.String phone, java.lang.String address) {
         this.name = name;
         this.age = age;
         this.gender = gender;
         this.phone = phone;
         this.address = address;
+    }
+
+    public java.lang.String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public java.lang.String getGender() {
+        return gender;
+    }
+
+    public java.lang.String getPhone() {
+        return phone;
+    }
+
+    public java.lang.String getAddress() {
+        return address;
     }
 
     public void showInfo(){
